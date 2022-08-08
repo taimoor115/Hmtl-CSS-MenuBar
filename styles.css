@@ -1,0 +1,117 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./images/img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    font-style: bold italic;
+    
+}
+.menu
+{
+    background-color: deepskyblue;
+    text-align: center;
+}
+.menu ul
+{
+ 
+    display: inline-flex;
+    list-style: none;
+    color: white;
+
+}
+.menu ul li
+{
+    width: 120px;
+    margin: 15px;
+    padding: 10px;
+    
+}
+.menu ul li a
+{
+    text-decoration: none;
+    color: white;
+}
+.menu ul li:hover
+{
+    background-color:deepskyblue;
+    color:black;
+    border: 1px solid white;
+}
+.menu .fa-solid
+{
+    margin-right: 10px;
+}
+.sub-menu-1
+{
+    display: none;
+
+}
+.menu ul li:hover .sub-menu-1
+{
+    display:block;
+    position: absolute;
+    background-color: rgba(0, 41, 41, 0.219);
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.menu ul li:hover .sub-menu-1 ul
+{
+    display: block;
+    padding: 5px;
+}
+.menu ul li:hover .sub-menu-1 ul li
+{
+    width: 120px;
+    padding: 10px;
+    border-bottom: 1px solid ;
+    text-align: left;
+    border-radius: 0%;
+}
+.menu ul li:hover .sub-menu-1 ul li a:hover
+{
+    color: rgba(81, 82, 82, 0.397);
+}
+.search
+{
+    width: 500px;
+    padding: 15px;
+    opacity: 0.9;
+    text-transform: capitalize;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
